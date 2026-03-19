@@ -54,7 +54,7 @@ Repository → Entity → REST API (auto-generated)
 
 Clone this repository to your local machine:
 ```bash
-git clone https://github.com/YOUR_USERNAME/spring-boot-data-rest.git
+git clone https://github.com/Nabuchodon0ssor/spring-boot-data-rest.git
 ```
 
 Or download it as a ZIP archive and extract it.
