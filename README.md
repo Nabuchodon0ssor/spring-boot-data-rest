@@ -165,15 +165,7 @@ http://localhost:3333/spring_data_rest/employees
 
 
 ### 🧪 Example JSON
-Create employee (POST)
-```json
-{
-  "name": "Jonas",
-  "surname": "Richter",
-  "department": "Sales",
-  "salary": 1600
-}
-```
+
 Update employee (PUT)
 ```json
 {
@@ -183,7 +175,11 @@ Update employee (PUT)
   "salary": 1600
 }
 ```
-There is no id in JSON needed, but in the url.
+Note:
+The id is not included in the request body. It is passed in the URL path:
+```url
+PUT /employees/{id}
+```
 
 ### 📡 Spring Boot Actuator Endpoints
 | Endpoint             | Description        |
