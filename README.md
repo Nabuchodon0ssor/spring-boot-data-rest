@@ -39,7 +39,7 @@ Repository → Entity → REST API (auto-generated)
 ## Screenshots
 
 ### Employee List
-![Employee List](images/Screenshot.png)
+![Employee List](images/Screenshot1.png)
 
 ## 🛠 Requirements
 
